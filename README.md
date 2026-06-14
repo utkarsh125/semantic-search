@@ -1,6 +1,14 @@
 # Semantic Search Engine
 ![LangChain](https://img.shields.io/badge/langchain-%231C3C3C.svg?style=for-the-badge&logo=langchain&logoColor=white)![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white)![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)![Orama](https://img.shields.io/badge/Orama-Vector%20Store-FF6B35?style=for-the-badge&logo=databricks&logoColor=white)
 ## Overview
+<p align="center">
+  <img
+    width="800"
+    height="450"
+    alt="Semantic Search Demo"
+    src="https://github.com/user-attachments/assets/b4d5fa3a-4972-4b49-912e-5cbf47f59e71"
+  />
+</p>
 
 I built this project to understand the core retrieval abstractions used throughout the LangChain ecosystem. *The goal was to learn how documents are processed, embedded, indexed, and retrieved using semantic similarity search.* **To be real, it hallucinates, so I still have to fix it.**
 
