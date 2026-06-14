@@ -1,8 +1,8 @@
 # Semantic Search Engine
-
+![LangChain](https://img.shields.io/badge/langchain-%231C3C3C.svg?style=for-the-badge&logo=langchain&logoColor=white)![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white)![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)![Orama](https://img.shields.io/badge/Orama-Vector%20Store-FF6B35?style=for-the-badge&logo=databricks&logoColor=white)
 ## Overview
 
-I built this project to understand the core retrieval abstractions used throughout the LangChain ecosystem. *The goal was to learn how documents are processed, embedded, indexed, and retrieved using semantic similarity search.*
+I built this project to understand the core retrieval abstractions used throughout the LangChain ecosystem. *The goal was to learn how documents are processed, embedded, indexed, and retrieved using semantic similarity search.* **To be real, it hallucinates, so I still have to fix it.**
 
 This project follows the concepts introduced in [LangChain's Knowledge Base tutorial](https://docs.langchain.com/oss/python/langchain/knowledge-base) and implements them in **typescript** using **bun** instead of **python**.
 
