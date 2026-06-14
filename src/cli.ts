@@ -32,6 +32,4 @@ const [, , command, ...args] = process.argv;
     else {
         console.log("Commands: ingest <doc_path> | search <query>");
     }
-
-    process.exit(0);
 })();

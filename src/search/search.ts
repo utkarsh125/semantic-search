@@ -23,7 +23,7 @@ export async function semanticSearch(
         throw new Error("Failed to generate query embedding.");
     }
 
-    const results = mode === "fulltext"
+    const results = mode === "vector"
         ? await search(db, {
             mode: "fulltext",
             term: query,

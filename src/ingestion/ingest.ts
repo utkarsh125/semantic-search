@@ -60,6 +60,6 @@ export async function ingestDocument(filePath: string): Promise<void> {
         console.log(`Embedded ${progress}/${chunks.length} chunks...`);
     }
     
-    saveDb();
+    await saveDb();
     console.log(`Ingestion complete for ${source}.`);
 }

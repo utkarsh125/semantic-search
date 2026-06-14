@@ -21,11 +21,11 @@ export type DocSchema = typeof schema;
 
 let _db: Orama<DocSchema> | null = null;
 
-export function getDb(): Orama<DocSchema> {
+export async function getDb(): Promise<Orama<DocSchema>> {
     if (_db) return _db;
 
     if(fs.existsSync(INDEX_PATH)){
-        _db = restoreFromFile("json", INDEX_PATH) as unknown as Orama<DocSchema>;
+        _db = await restoreFromFile("json", INDEX_PATH) as unknown as Orama<DocSchema>;
         console.log("Loaded existing index from disk.");
     }
     else {
@@ -37,8 +37,8 @@ export function getDb(): Orama<DocSchema> {
     return _db;
 }
 
-export function saveDb(): void {
+export async function saveDb(): Promise<void> {
     if (!_db) return;
-    persistToFile(_db, "json", INDEX_PATH);
+    await persistToFile(_db, "json", INDEX_PATH);
     console.log("Index saved to disk.")
 }
