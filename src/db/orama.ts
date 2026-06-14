@@ -40,5 +40,5 @@ export function getDb(): Orama<DocSchema> {
 export function saveDb(): void {
     if (!_db) return;
     persistToFile(_db, "json", INDEX_PATH);
-    console.log("Index saved to disk.");
+    console.log("Index saved to disk.")
 }
