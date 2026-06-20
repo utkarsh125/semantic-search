@@ -10,7 +10,7 @@
   />
 </p>
 
-I built this project to understand the core retrieval abstractions used throughout the LangChain ecosystem. *The goal was to learn how documents are processed, embedded, indexed, and retrieved using semantic similarity search.* **To be real, it hallucinates, so I still have to fix it.**
+I built this project to understand the core retrieval abstractions used throughout the LangChain ecosystem. *The goal was to learn how documents are processed, embedded, indexed, and retrieved using semantic similarity search.*
 
 This project follows the concepts introduced in [LangChain's Knowledge Base tutorial](https://docs.langchain.com/oss/python/langchain/knowledge-base) and implements them in **typescript** using **bun** instead of **python**.
 
